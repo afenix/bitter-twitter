@@ -13,9 +13,10 @@
   {{/each}}
 </ul>
 
-<p>
-  Add a Beet:
-</p>
+<br />
+
+<p>Add a Beet:</p>
+
 <form>
   <div class="form-group">
     <label for="user">User Name</label>
@@ -28,5 +29,5 @@
     <p class="instruction">141 character limit</p>
   </div>
 
-  <button class="btn btn-primary" {{action 'addBeet'}}>Add</button>
+  <button class="btn btn-primary" {{action 'addBeet' 'sortByDate'}}>Add</button>
 </form>
