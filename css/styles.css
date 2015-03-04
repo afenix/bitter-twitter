@@ -12,3 +12,15 @@ h3 {
 p {
   font-family: 'Glegoo', serif;
 }
+
+ul li {
+  font-family: 'Glegoo', serif;
+  font-size: 75%;
+}
+
+.instruction {
+  font-style: italic;
+  color: gray;
+  font-size: 65%;
+  float: right;
+}
